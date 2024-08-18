@@ -1,10 +1,10 @@
 /*  your css code here. If applicable */
 #grid {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 124px 124px 124px 124px 124px;
 }
 .item1 {
-	grid-column: 1/5;
+	grid-column: span 4 / auto;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
