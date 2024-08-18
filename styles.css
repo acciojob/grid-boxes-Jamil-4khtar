@@ -1,7 +1,8 @@
 /*  your css code here. If applicable */
 #grid {
 	display: grid;
-	grid-template-rows: 124px 124px 124px 124px 124px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
 }
 .item1 {
 	grid-column: span 4 / auto;
@@ -10,55 +11,50 @@
 	text-align: center;
 }
 .item2 {
-	grid-row: 2/6;
+	grid-row: span 4 / auto;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item3 {
-	/* grid-row: 2/5; */
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item4 {
-	grid-column: 3/5;
+	grid-column: span 2 / auto;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item5 {
-	grid-column: 2/4;
+	grid-column: span 2 / auto;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item6 {
-	/* grid-column: 2/4; */
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item7 {
-	/* grid-column: 2/4; */
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item8 {
-	/* grid-column: 2/4; */
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item9 {
-	/* grid-column: 2/4; */
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
 }
 .item10 {
-	grid-column: 2/5;
+	grid-column: span 3 / auto;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
