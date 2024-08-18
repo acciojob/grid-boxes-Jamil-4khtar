@@ -3,6 +3,8 @@
 	display: grid;
 	grid-template-columns: repeat(4, 242.5px);
 	grid-template-rows: repeat(5, 124px);
+	grid-auto-rows: auto;
+    grid-auto-columns: auto;
 }
 .item1 {
 	grid-column: span 4 / auto;
