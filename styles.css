@@ -3,8 +3,8 @@
 	display: grid;
 	grid-template-columns: repeat(4, 242.5px);
 	grid-template-rows: repeat(5, 124px);
-	grid-auto-rows: auto;
-    grid-auto-columns: auto;
+	/* grid-auto-rows: auto;
+    grid-auto-columns: auto; */
 }
 .item1 {
 	grid-column: span 4 / auto;
@@ -13,7 +13,7 @@
 	text-align: center;
 }
 .item2 {
-	grid-row: span 4 / auto;
+	grid-row: 2 / span 4;
 	background-color: green;
 	border: 1px solid black;
 	text-align: center;
